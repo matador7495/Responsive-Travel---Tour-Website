@@ -334,3 +334,36 @@ header.sticky {
   color: #ffffffab;
   margin-bottom: 35px;
 }
+
+.newsletter-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.newsletter-text h2 {
+  font-size: var(--h2-font);
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.newsletter-text p {
+  font-size: var(--p-font);
+  font-weight: 500;
+  color: #ffffffab;
+}
+
+.newsletter-content form {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+  gap: 1rem;
+}
+
+.newsletter-content form input:first-child {
+  padding: 15px;
+  background-color: #202020;
+  font-size: var(--p-font);
+  color: var(--text-color);
+  border-radius: 5px;
+}
